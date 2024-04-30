@@ -44,6 +44,14 @@ class UserServices {
      await axiosInstance.put(baseURL+ `/${data.id}`, data)
   }
 
+  async listDataUsersDashboard(): Promise<AxiosResponse<
+  { status: boolean;
+    type: number;
+    count: string;
+  }[]
+  >> {
+    return await axiosInstance.get(baseURL+ "/dashboard");
+  }
 
 }
 
