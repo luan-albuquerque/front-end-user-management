@@ -46,7 +46,7 @@ Embora não tenhamos implementado testes unitários nesta fase inicial do projet
 
 ## Link para testar em produção:
 
-`link`: https://
+`link`: http://web.ecore-inovation.com/login
 
 
 # Observações
