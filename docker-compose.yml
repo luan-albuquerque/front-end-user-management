@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  frontend-user:
+    image: front-end-user-management
+    container_name: front-end-user-management
+    build: .
+    ports:
+      - "4000:4000"
