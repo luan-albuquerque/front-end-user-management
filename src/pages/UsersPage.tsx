@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Typography, Divider, Layout } from "antd";
 import { PlusCircleOutlined } from "@ant-design/icons";
 import { User } from "../services/models/User.model";

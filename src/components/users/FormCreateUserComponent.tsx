@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useState } from "react";
-import { Button, Form, Input, Radio, Select, message } from "antd";
+import React, { useEffect } from "react";
+import { Button, Form, Input, Radio, message } from "antd";
 import { usersServices } from "../../services/api/users.service";
 
 type FieldType = {

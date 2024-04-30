@@ -1,4 +1,3 @@
-import React from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
 import { Result, Button } from "antd";
 import { redirect } from "../redirect.navigate";

@@ -12,12 +12,12 @@ export const RepairPasswordPage: React.FC = () => {
   const navigate = useNavigate();
 
   const onFinish = ({ email }: RepairPasswordValues) => {
-     authServices.emailRepairPassword(email).then((response: any) => {
+     authServices.emailRepairPassword(email).then(() => {
          message.success("Email enviado com sucesso para " + email);
 
          navigate(redirect.redefinePasswordPage);
        })
-       .catch((error: any) => {
+       .catch(() => {
            message.error("Error ao enviar email ");
        });
 

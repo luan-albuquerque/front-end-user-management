@@ -23,7 +23,7 @@ export const UpdatePasswordPage: React.FC = () => {
     
     authServices
       .updatePassword(isTokenValid, password, confirmPassword)
-      .then((response: any) => {
+      .then(() => {
         message.success("Senha alterada com sucesso.");
 
         navigate(redirect.loginPage);
@@ -49,7 +49,7 @@ export const UpdatePasswordPage: React.FC = () => {
       });
   };
 
-  const onFinishFailed = (errorInfo: any) => {
+  const onFinishFailed = () => {
 
   };
 
